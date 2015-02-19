@@ -1,6 +1,6 @@
 [Yeoman](http://yeoman.io) [MarionetteJS](http://marionettejs.com) + [Drupal](http://drupal.org) generator
 
-This generator create a HTML 5 application using a MVC pattern implemented with MarionetteJS and Backbone.Drupal for data model.
+This generator creates an HTML 5 application using a MVC pattern implemented with MarionetteJS and Backbone.Drupal for data model.
 
 Also the HTML 5 application includes [Grunt](http://gruntjs.com) support to automate tasks and [Jasmine](jasmine.github.io) for Unit Tests.
 
@@ -13,7 +13,7 @@ Compass is used to generate CSS using bootstrap-sass.
 - [Application Structure](#application-structure)
 - [Getting Started](#getting-started)
     - [Install Generator](#install-generator)
-    - [Create a Marionett + Drupal Project](#create-a-marionette-drupal-project)
+    - [Create a Marionette + Drupal Project](#create-a-marionette-drupal-project)
     - [Execute Sample Application](#execute-sample-application)
 - [Scaffolding](#scaffolding)
 - [Integration with Jasmine](#integration-with-jasmine)
@@ -50,7 +50,7 @@ Compass is used to generate CSS using bootstrap-sass.
 
 ### Install Dependencies
 
-In order to use the Marionette Drupal generator is required install  Yeoman, Bower and Grunt running the following command:
+In order to use the Marionette Drupal generator, the installation of Yeoman, Bower and Grunt is accomplished with following command:
 ```bash
 $ npm install -g yo grunt-cli bower
 ```
@@ -90,7 +90,7 @@ This command above will open your application in the following URL **http://loca
 
 **No webserver is requiered.**
 
-The objetive of this sample application is just demostrate the environment is ready to work and you can use the [Scaffolding](#scaffolding) commands to build your application.
+The objetive of this sample application is just demostrate that the yeoman generator and its related environment is ready to work with and you can use the [Scaffolding](#scaffolding) commands to build your application.
 
 ##Scaffolding##
 
@@ -102,7 +102,7 @@ $ yo marionette-drupal:template
 
 The command above will create an empty template inside application folder app_folder/templates_folder using [Twig.js](https://github.com/justjohn/twig.js)
 
-This command is interactive as you can see in the follwing image
+This command is interactive as you can see in the following image
 
 ![Template Generation](https://github.com/enzolutions/generator-marionette-drupal/blob/master/images/generator_marionette_drupal_template.png "Template Generation")
 
@@ -110,7 +110,7 @@ This command is interactive as you can see in the follwing image
 ```bash
 $ yo marionette-drupal:model
 ```
-The command above start an interactive interface to provide a Model Name and if a Jasmime Test unit must be created for new Model.
+The command above starts an interactive interface to provide a Model Name and allows a Jasmime Unit Test must be created for new Model.
 
 In the following image you see how the command looks
 
@@ -122,7 +122,7 @@ If you choose **None** you can define a custom end point for your model
 ```bash
 $ yo marionette-drupal:collection
 ```
-The command above start an interactive interface to provide a Collection Name, select **Model** to be used in collection items and if a Jasmime Test unit must be created for new Model.
+The command above starts an interactive interface to provide a Collection Name, select **Model** to be used in collection items and if a Jasmime Test unit must be created for new Model.
 
 Right now you must to set the end point URL relative to Drupal Backend Server.
 
